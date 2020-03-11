@@ -1,0 +1,29 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "browser": true,
+        "jquery": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018 
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "func-names": ["warn", "never" ],
+        "no-console": ["error", { "allow": ["warn", "error"] }],
+        "prefer-arrow-callback": ["warn"],
+        "quotes": ["warn", "double"],
+        "strict": ["warn" , "global"],
+        "linebreak-style": ["off", "unix"]
+        
+    }
+}
