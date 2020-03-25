@@ -1,14 +1,19 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+// import API from "../utils/API";
+
 import About from "../components/About";
 import Footer from "../components/Footer";
 // import Nav from "../components/Nav";
 import Popular from "../components/Popular";
+import User from "../components/User";
 import Slider from "../components/Slider";
 import Header from "../components/Header";
-// import API from "../utils/API";
+import CourseDetail from "../components/CourseDetail";
 
 function Courses() {
     const [courses, setCourses] = useState([]);
+    const [isUser, setIsUser] = useState();
     
     useEffect(() => {
         loadCourses()
@@ -29,6 +34,8 @@ function Courses() {
             <Header />
             <Slider />
             <About />
+            <User />
+            <CourseDetail />
             <Popular />
             <Footer />
         </div>
