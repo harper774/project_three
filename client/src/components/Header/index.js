@@ -11,7 +11,7 @@ function Header() {
                             <div className="col-xl-2 col-lg-2">
                                 <div className="logo-img">
                                     <a href="index.html">
-                                        <img src="img/logo.png" alt=""></img>
+                                        <img src="img/" alt=""></img>
                                     </a>
                                 </div>
                             </div>
@@ -21,14 +21,14 @@ function Header() {
                                         <ul id="navigation">
                                             <li><a href="index.html">home</a></li>
                                             <li><a href="Courses.html">Courses</a></li>
-                                            <li><a href="#">pages <i className="ti-angle-down"></i></a>
+                                            <li><a href="#">pages </a>
                                                 <ul className="submenu">
                                                     <li><a href="course_details.html">course details</a></li>
                                                     <li><a href="elements.html">elements</a></li>
                                                 </ul>
                                             </li>
                                             <li><a className="active" href="about.html">About</a></li>
-                                            <li><a href="#">blog <i className="ti-angle-down"></i></a>
+                                            <li><a href="#">blog </a>
                                                 <ul className="submenu">
                                                     <li><a href="blog.html">blog</a></li>
                                                     <li><a href="single-blog.html">single-blog</a></li>
@@ -48,7 +48,7 @@ function Header() {
                                     <div className="live_chat_btn">
                                         <a className="boxed_btn_orange" href="#">
                                             <i className="fa fa-phone"></i>
-                                            <span>+10 378 467 3672</span>
+                                            <span>+61 424 560 436</span>
                                         </a>
                                     </div>
                                 </div>
