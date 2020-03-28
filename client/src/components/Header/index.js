@@ -24,14 +24,12 @@ function Header() {
                                             <li><a href="#">pages </a>
                                                 <ul className="submenu">
                                                     <li><a href="course_details.html">course details</a></li>
-                                                    <li><a href="elements.html">elements</a></li>
                                                 </ul>
                                             </li>
                                             <li><a className="active" href="about.html">About</a></li>
                                             <li><a href="#">blog </a>
                                                 <ul className="submenu">
                                                     <li><a href="blog.html">blog</a></li>
-                                                    <li><a href="single-blog.html">single-blog</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="contact.html">Contact</a></li>
