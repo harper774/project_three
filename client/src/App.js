@@ -1,17 +1,27 @@
 import React from "react";
-import Courses from "./pages/Courses";
+import Main from "./pages/Main";
+import Header from "../src/components/Header";
+import Footer from "../src/components/Footer";
+import Course from "../src/pages/Course"
+import UserPage from "./pages/UserPage";
+
 // import Nav from "./components/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
 
     return (
-        <Router>
-            <Switch>
-                <Route path="/" component={Courses}/>
-                
-            </Switch>
-        </Router>
+        <div>
+            <Header />
+            <Router>
+                <Switch>
+                    <Route path="/" component={Main} exact />
+                    <Route path="/course" component={Course} exact/>
+                    <Route path="/user" component={UserPage} exact />
+                </Switch>
+            </Router>
+            <Footer />
+        </div>
     );
 }
 
