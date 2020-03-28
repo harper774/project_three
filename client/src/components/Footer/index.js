@@ -15,9 +15,9 @@ function Footer() {
                                     </a>
                                 </div>
                                 <p>
-                                    Firmament morning sixth subdue darkness creeping gathered divide our let god moving.
-                                    Moving in fourth air night bring upon it beast let you dominion likeness open place day
-                                    great.
+                                    Learning online
+                                    is quite
+                                    good.
                                 </p>
                                 <div className="socail_links">
                                     <ul>
