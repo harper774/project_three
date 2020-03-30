@@ -3,7 +3,7 @@ const db = require("../models");
 
 mongoose.connect(
     process.env.MONGODB_URI ||
-    "mongodb://localhost/reactreadinglist"
+    "mongodb://localhost/onlinecourse"
 );
 
 const coursesSeed = [
@@ -16,9 +16,31 @@ const coursesSeed = [
     }
 ];
 
+const usersSeed = [
+    {
+        name: "Harper",
+        password: "111",
+        description:
+            "Web Developer",
+        date: new Date(Date.now())
+    }
+];
+
 db.Course
     .remove({})
     .then(() => db.Course.collection.insertMany(coursesSeed))
+    .then(data => {
+        console.log(data.result.n + " records inserted!");
+        process.exit(0);
+    })
+    .catch(err => {
+        console.error(err);
+        process.exit(1);
+    });
+
+db.Course
+    .remove({})
+    .then(() => db.Course.collection.insertMany(usersSeed))
     .then(data => {
         console.log(data.result.n + " records inserted!");
         process.exit(0);

@@ -17,7 +17,7 @@ function Slider() {
                                 <h3>Learn your <br></br>
                                     Favorite Course <br></br>
                                     From Online</h3>
-                                <a href="#" className="boxed_btn">Browse Our Courses</a>
+                                <a href="/allcourses" className="boxed_btn">Browse Our Courses</a>
                             </div>
                         </div>
                     </div>

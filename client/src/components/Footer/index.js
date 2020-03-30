@@ -15,9 +15,7 @@ function Footer() {
                                     </a>
                                 </div>
                                 <p>
-                                    Firmament morning sixth subdue darkness creeping gathered divide our let god moving.
-                                    Moving in fourth air night bring upon it beast let you dominion likeness open place day
-                                    great.
+                                    Learning online is quite good.
                                 </p>
                                 <div className="socail_links">
                                     <ul>
@@ -51,11 +49,11 @@ function Footer() {
                                     Courses
                             </h3>
                                 <ul>
-                                    <li><a href="#">Wordpress</a></li>
-                                    <li><a href="#"> Photoshop</a></li>
-                                    <li><a href="#">Illustrator</a></li>
-                                    <li><a href="#">Adobe XD</a></li>
-                                    <li><a href="#">UI/UX</a></li>
+                                    <li><a href="#">Javascript</a></li>
+                                    <li><a href="#"> CSS</a></li>
+                                    <li><a href="#">Express</a></li>
+                                    <li><a href="#">React</a></li>
+                                    <li><a href="#">Other Languages</a></li>
                                 </ul>
 
                             </div>
@@ -63,14 +61,12 @@ function Footer() {
                         <div className="col-xl-2 col-md-6 col-lg-2">
                             <div className="footer_widget">
                                 <h3 className="footer_title">
-                                    Resourches
+                                    Resources
                             </h3>
                                 <ul>
-                                    <li><a href="#">Free Adobe XD</a></li>
-                                    <li><a href="#">Tutorials</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#"> About</a></li>
-                                    <li><a href="#"> Contact</a></li>
+                                    <li><a href="#">Github</a></li>
+                                    <li><a href="#">Monash Bootcamp</a></li>
+                                    <li><a href="#">Contact me</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -80,9 +76,8 @@ function Footer() {
                                     Address
                             </h3>
                                 <p>
-                                    200, D-block, Green lane USA <br></br>
-                                    +10 367 467 8934 <br></br>
-                                    edumark@contact.com
+                                    Monash Bootcamp <br></br>
+                                    Melbourne VIC
                                 </p>
                             </div>
                         </div>
@@ -95,7 +90,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-xl-12">
                             <p className="copy_right text-center">
-                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="#" target="_blank"> Harper</a>
                             </p>
                         </div>
                     </div>

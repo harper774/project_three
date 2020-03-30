@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from "react";
-import About from "../components/About";
-import Footer from "../components/Footer";
-// import Nav from "../components/Nav";
-import Popular from "../components/Popular";
-import Slider from "../components/Slider";
-import Header from "../components/Header";
 // import API from "../utils/API";
+import User from "../components/User";
+import UserCourse from "../components/UserCourse";
 
-function Courses() {
+function UserPage() {
     const [courses, setCourses] = useState([]);
-    
+    const [isUser, setIsUser] = useState();
+
     useEffect(() => {
         loadCourses()
     }, []);
@@ -26,13 +23,10 @@ function Courses() {
 
     return (
         <div>
-            <Header />
-            <Slider />
-            <About />
-            <Popular />
-            <Footer />
+            <User />
+            <UserCourse />
         </div>
     );
 }
 
-export default Courses;
+export default UserPage;
