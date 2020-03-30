@@ -8,10 +8,10 @@ function Banner() {
                 <div className="row">
                     <div className="col-xl-6">
                         <div className="course_text">
-                            <h3>UI/UX design with <br></br> Adobe XD with</h3>
+                            <h3>Music Search App <br></br> for beginner</h3>
                             <div className="prise">
-                                <span className="inactive">$89.00</span>
-                                <span className="active">$49</span>
+                                {/* <span className="inactive">$89.00</span> */}
+                                <span className="active">Free</span>
                             </div>
                             <div className="rating">
                                 <i className="flaticon-mark-as-favorite-star"></i>
