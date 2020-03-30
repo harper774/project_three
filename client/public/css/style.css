@@ -2058,7 +2058,7 @@ h3 {
 
 /* line 121, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
 .popup_box {
-  background: #4B38D2;
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fc826f 100%);
   display: inline-block;
   width: 558px;
   padding: 60px 40px;
