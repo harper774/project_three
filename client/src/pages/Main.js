@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 // import API from "../utils/API";
 
 import About from "../components/About";
-import Popular from "../components/Popular";
 import User from "../components/User";
 import Slider from "../components/Slider";
 
@@ -29,7 +28,6 @@ function Main() {
             <Slider />
             <About />
             <User />
-            <Popular />
         </div>
     );
 }
