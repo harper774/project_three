@@ -19,20 +19,20 @@ function Header() {
                                 <div className="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="index.html">home</a></li>
-                                            <li><a href="Courses.html">Courses</a></li>
-                                            <li><a href="#">pages </a>
+                                            <li><a className="active" href="/">home</a></li>
+                                            <li><a href="/allcourses">Courses</a></li>
+                                            {/* <li><a href="#">pages </a>
                                                 <ul className="submenu">
                                                     <li><a href="course_details.html">course details</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a className="active" href="about.html">About</a></li>
-                                            <li><a href="#">blog </a>
+                                            </li> */}
+                                            {/* <li><a href="#">About</a></li> */}
+                                            {/* <li><a href="#">blog </a>
                                                 <ul className="submenu">
                                                     <li><a href="blog.html">blog</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            </li> */}
+                                            <li><a href="https://harperportfolio.herokuapp.com/">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
