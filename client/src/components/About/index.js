@@ -12,7 +12,7 @@ function About() {
                                 to study together
                             </h3>
                             <p> Studying online gives you more flexibility. You can work and fit your work schedule (and your hobbies) around your coursework more easily.  </p>
-                            <a href="#" className="boxed_btn">Enroll a Course</a>
+                            <a href="/allcourses" className="boxed_btn">Enroll a Course</a>
                         </div>
                     </div>
                     <div className="col-xl-6 offset-xl-1 col-lg-6">
