@@ -12,7 +12,7 @@ function Course() {
                 </div>
                 <div class="courses_info">
                     <span>Javascript</span>
-                    <h3><a href="#">Music Search App Dev <br></br>
+                    <h3><a href="/course">Music Search App Dev <br></br>
                         for beginner</a></h3>
                     <div class="star_prise d-flex justify-content-between">
                         <div class="star">

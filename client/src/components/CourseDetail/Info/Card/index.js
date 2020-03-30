@@ -7,16 +7,30 @@ function Card() {
             <div className="card-header" id="headingTwo">
                 <h5 className="mb-0">
                     <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <i className="flaticon-question"></i> Is WordPress hosting worth it?
+                        <i className="flaticon-question"></i> Basic HTML, CSS
                     </button>
                 </h5>
             </div>
-            <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div className="card-header" id="headingTwo">
+                <h5 className="mb-0">
+                    <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i className="flaticon-question"></i> Javascript
+                    </button>
+                </h5>
+            </div>
+            <div className="card-header" id="headingTwo">
+                <h5 className="mb-0">
+                    <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i className="flaticon-question"></i> API
+                    </button>
+                </h5>
+            </div>
+            {/* <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div className="card-body">
                     Our set he for firmament morning sixth subdue darkness creeping gathered divide our
                     let god moving. Moving in fourth air night bring upon
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

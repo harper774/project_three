@@ -10,7 +10,7 @@ function UserCourses() {
                     <div className="col-lg-8 posts-list">
                         <div className="single-post">
                             <div className="blog_details">
-                                <h2>Hi Online Courses User!
+                                <h2>Hi User!
                                 </h2>
                             </div>
                         </div>
@@ -19,7 +19,7 @@ function UserCourses() {
                         </div>
                         <div className="blog-author">
                             <div className="media align-items-center">
-                                <img src="img/blog/author.png" alt=""></img>
+                            
                                 <div className="media-body">
                                     <a href="#">
                                         <h4>User's Introduction</h4>

@@ -11,7 +11,7 @@ function Footer() {
                             <div className="footer_widget">
                                 <div className="footer_logo">
                                     <a href="#">
-                                        <img src="img/logo.png" alt=""></img>
+                                        
                                     </a>
                                 </div>
                                 <p>
@@ -27,16 +27,6 @@ function Footer() {
                                         <li>
                                             <a href="#">
                                                 <i className="ti-twitter-alt"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fa fa-youtube-play"></i>
                                             </a>
                                         </li>
                                     </ul>
