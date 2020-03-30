@@ -14,35 +14,27 @@ function Popular() {
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                    aria-controls="profile" aria-selected="false">Photoshop</a>
+                                    aria-controls="profile" aria-selected="false">Javascript</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                    aria-controls="contact" aria-selected="false">UI/UX</a>
+                                    aria-controls="contact" aria-selected="false">CSS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab"
-                                    aria-controls="design" aria-selected="false">Web Design</a>
+                                    aria-controls="design" aria-selected="false">Express</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="Web-tab" data-toggle="tab" href="#Web" role="tab"
-                                    aria-controls="design" aria-selected="false">Web dev</a>
+                                    aria-controls="design" aria-selected="false">React</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="Web-tab1" data-toggle="tab" href="#Web1" role="tab"
-                                    aria-controls="design" aria-selected="false">Wordpress</a>
+                                    aria-controls="design" aria-selected="false">Database</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="Web-tab11" data-toggle="tab" href="#Web11" role="tab"
-                                    aria-controls="design" aria-selected="false">Adobe XD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="Adobe-XD-tab8" data-toggle="tab" href="#Adobe-XD8" role="tab"
-                                    aria-controls="design" aria-selected="false">Sketch App</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="Adobe-XD-tab9" data-toggle="tab" href="#Adobe-XD9" role="tab"
-                                    aria-controls="design" aria-selected="false">Illustrator</a>
+                                    aria-controls="design" aria-selected="false">Other</a>
                             </li>
                         </ul>
                     </nav>
