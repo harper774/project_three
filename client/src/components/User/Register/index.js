@@ -7,7 +7,7 @@ function Login() {
                 <div class="popup_inner">
                     <div class="logo text-center">
                         <a href="#">
-                            <img src="img/form-logo.png" alt=""></img>
+                            
                         </a>
                     </div>
                     <h3>Resistration</h3>

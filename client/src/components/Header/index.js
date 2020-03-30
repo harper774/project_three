@@ -39,14 +39,15 @@ function Header() {
                             </div>
                             <div className="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div className="log_chat_area d-flex align-items-center">
+                                    
                                     <a href="#test-form" className="login popup-with-form">
                                         <i className="flaticon-user"></i>
                                         <span>log in</span>
                                     </a>
                                     <div className="live_chat_btn">
                                         <a className="boxed_btn_orange" href="#">
-                                            <i className="fa fa-phone"></i>
-                                            <span>+61 424 560 436</span>
+                                            <input type="text" placeholder="Search"></input>
+                                            <span></span>
                                         </a>
                                     </div>
                                 </div>

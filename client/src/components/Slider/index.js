@@ -9,7 +9,7 @@ function Slider() {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-xl-6 col-md-6">
                             <div className="illastrator_png">
-                                <img src="img/banner/edu_ilastration.png" alt=""></img>
+                                
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-6">

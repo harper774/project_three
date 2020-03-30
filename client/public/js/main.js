@@ -12,6 +12,7 @@
     }
   });
 
+  
 
   $(document).ready(function () {
 
@@ -29,7 +30,14 @@
     //   prependTo: ".blog_menu"
     // });
 
+    const $email = $("#email");
+    const $password = $("#password");
 
+    const email = $email.val().trim();
+    const password = $password.val().trim();
+    $('#signin-btn').on("click", function () {
+      window.location.href = "/user";
+    });
 
     // review-active
     $('.testmonial_active').owlCarousel({
