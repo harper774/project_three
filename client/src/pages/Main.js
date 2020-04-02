@@ -15,12 +15,6 @@ function Main() {
 
     function loadCourses() {
         console.log("Courses");
-        // API.getCourse()
-        // .then(res =>
-        //     setCourses(res.data)
-        // )
-        // .catch(err => 
-        //     console.log(err));
     };
 
     return (
