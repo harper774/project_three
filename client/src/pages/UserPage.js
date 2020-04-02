@@ -36,7 +36,8 @@ function UserPage() {
                 userId={user._id}
                 userName={user.userName}
                 userBrief={user.userBrief}
-                userCourse={user.userCourse}
+                userCourseName={user.userCourseName}
+                userCourseDetail={user.userCourseDetail}
                 userEnrolledTime={user.userEnrolledTime}
             />
         </div>

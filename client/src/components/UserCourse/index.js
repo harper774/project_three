@@ -37,12 +37,12 @@ function UserCourses(props) {
                                         </div>
                                         <div className="desc">
                                             <p className="comment">
-                                            { props.userName }
+                                            { props.userCourseName }
                                             </p>
                                             <div className="d-flex justify-content-between">
                                                 <div className="d-flex align-items-center">
                                                     <h5>
-                                                        <a href="#">{ props.userCourse }</a>
+                                                        <a href="#">{ props.userCourseDetail }</a>
                                                     </h5>
                                                     <p className="date">{ props.userEnrolledTime }</p>
                                                 </div>

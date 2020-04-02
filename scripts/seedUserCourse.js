@@ -18,11 +18,13 @@ const coursesSeed = [
 
 const usersSeed = [
     {
-        name: "Harper",
+        userName: "Harper",
         email: "Harper@gmail.com",
         email_is_verified: true,
         password: "12345678",
         userBrief: "Web Developer",
+        userCourseName: "Javascript",
+        userCourseDetail: "Basic and intermediate web development courses",
         userCourse: "5e852bff0edb98793380c260",
         date: new Date(Date.now())
     }

@@ -32,7 +32,7 @@ const hashPassword = async (user) => {
 // Create Schema
 const userSchema = new mongoose.Schema(
     {
-        name: {
+        userName: {
             type: String
         },
         email: {
@@ -48,7 +48,9 @@ const userSchema = new mongoose.Schema(
             type: String
         },
         userBrief: { type: String },
-        userCourse: { type: Schema.Types.ObjectId, ref: "Course" },
+        // userCourseName: { type: Schema.Types.ObjectId, ref: "Course" },
+        userCourseName: { type: String },
+        userCourseDetail: { type: String },
         userEnrolledTime: { type: Date, default: Date.now },
         date: {
             type: Date,
