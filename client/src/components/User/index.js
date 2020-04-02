@@ -7,7 +7,6 @@ function User() {
     return (
         <div>
             <Login />
-            <Register />
         </div>
     );
 }

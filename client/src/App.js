@@ -1,19 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Main from "./pages/Main";
 import Header from "../src/components/Header";
 import Footer from "../src/components/Footer";
 import Course from "../src/pages/Course"
 import UserPage from "./pages/UserPage";
 import AllCourses from "./pages/AllCourses";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+const auContext = React.createContext();
 
 // import Nav from "./components/Nav";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 function App() {
+    const [checkAuth, setCheckAuth] = useState();
 
     return (
-        <div>
-            <Header />
+        <auContext.Provider>
+            <Header auth={checkAuth}/>
             <Router>
                 <Switch>
                     <Route path="/" component={Main} exact />
@@ -23,7 +26,7 @@ function App() {
                 </Switch>
             </Router>
             <Footer />
-        </div>
+        </auContext.Provider>
     );
 }
 

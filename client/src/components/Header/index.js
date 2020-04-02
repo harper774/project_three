@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./style.scss";
 
 function Header() {
+
+    // const isAuth = useContext(UserContext);
+
+    // function renderLogin() {
+    //     if(isAuth) {
+    //         return <span>log in</span>
+    //     } else if(!isAuth) {
+    //         return <span>log out</span>
+    //     }
+    // }
+
     return (
         <header>
             <div className="header-area ">
@@ -21,17 +32,6 @@ function Header() {
                                         <ul id="navigation">
                                             <li><a className="active" href="/">home</a></li>
                                             <li><a href="/allcourses">Courses</a></li>
-                                            {/* <li><a href="#">pages </a>
-                                                <ul className="submenu">
-                                                    <li><a href="course_details.html">course details</a></li>
-                                                </ul>
-                                            </li> */}
-                                            {/* <li><a href="#">About</a></li> */}
-                                            {/* <li><a href="#">blog </a>
-                                                <ul className="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
-                                                </ul>
-                                            </li> */}
                                             <li><a href="https://harperportfolio.herokuapp.com/">Contact</a></li>
                                         </ul>
                                     </nav>
@@ -42,7 +42,7 @@ function Header() {
                                     
                                     <a href="#test-form" className="login popup-with-form">
                                         <i className="flaticon-user"></i>
-                                        <span>log in</span>
+                                        <div> log in </div>
                                     </a>
                                     <div className="live_chat_btn">
                                         <a className="boxed_btn_orange" href="#">

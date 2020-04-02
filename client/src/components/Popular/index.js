@@ -11,7 +11,7 @@ const style = {
     color: "white"
 }
 
-function Popular() {
+function Popular(props) {
     return (
         <div>
             <div className="all_popular_courses" style={style}>
@@ -27,7 +27,12 @@ function Popular() {
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
-                                            <Course />
+                                            <Course 
+                                                courseType = { props.courseType }
+                                                courseName = { props.courseName}
+                                                courseRank = { props.courseRank}
+                                                coursePrice = { props.coursePrice}
+                                            />
                                             <More />
                                         </div>
                                     </div>

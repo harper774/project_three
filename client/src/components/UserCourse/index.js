@@ -1,16 +1,15 @@
 import React from "react";
-import SingleCourse from "../Popular/Course";
 import "./style.scss";
 
-function UserCourses() {
+function UserCourses(props) {
     return (
         <section className="blog_area single-post-area section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-8 posts-list">
+                    <div className="col-lg-8 posts-list" key={ props.userId }>
                         <div className="single-post">
                             <div className="blog_details">
-                                <h2>Hi User!
+                                <h2>Hi { props.userName }!
                                 </h2>
                             </div>
                         </div>
@@ -22,9 +21,9 @@ function UserCourses() {
                             
                                 <div className="media-body">
                                     <a href="#">
-                                        <h4>User's Introduction</h4>
+                                        <h4>{ props.userName }'s Introduction</h4>
                                     </a>
-                                    <p>A front-end web developer</p>
+                                    <p>{ props.userBrief }</p>
                                 </div>
                             </div>
                         </div>
@@ -34,21 +33,21 @@ function UserCourses() {
                                 <div className="single-comment justify-content-between d-flex">
                                     <div className="user justify-content-between d-flex">
                                         <div className="thumb">
-                                            <img src="img/comment/comment_2.png" alt=""></img>
+                                        
                                         </div>
                                         <div className="desc">
                                             <p className="comment">
-                                                Learn how to master javascript language.
+                                            { props.userName }
                                             </p>
                                             <div className="d-flex justify-content-between">
                                                 <div className="d-flex align-items-center">
                                                     <h5>
-                                                        <a href="#">Javascript Courses</a>
+                                                        <a href="#">{ props.userCourse }</a>
                                                     </h5>
-                                                    <p className="date">30 Mar 2020</p>
+                                                    <p className="date">{ props.userEnrolledTime }</p>
                                                 </div>
                                                 <div className="reply-btn">
-                                                    <a href="#" className="btn-reply text-uppercase">Details</a>
+                                                    <a href="#" className="btn-reply text-uppercase">Start Course</a>
                                                 </div>
                                             </div>
                                         </div>
